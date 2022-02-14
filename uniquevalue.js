@@ -1,5 +1,10 @@
 //             i j                                             
 // conditon : [1,1,2,2,3,3,4,4,5,5,6,6,7,7]
+/** 
+ * থরি i = 0; এবং j = 1;
+ * এখনে condition হল যদি i ও j এর মান সমান থাকে তাহলে j++ হবে
+ * আর যদি i ও j এর মান সমান না থাকে তাহলে i++ হবে এবং j এর মান i এর মানে বসবে a.x : arr[i] = arr[j]
+ */
 
 function countUniqueValue(arr){
     if(arr.length > 0){
